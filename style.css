@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+#nelementos{
+    font-size: small;
+    color: red;
+}
+
+ul li{
+    position: relative;
+    float: left;
+    padding-left: 50%;
+}
+ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: black;
+    display: block;
+}
+.submenu{
+    position: relative;
+}
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: invert(80%);
+    top: 100%;
+    z-index: 1;
+    background-color: #4e4b5076;
+    padding: 20px;
+    min-width: 400px;
+}
